@@ -60,7 +60,7 @@ body {
 
 .hero {
     border: 1px solid black;
-    height: 45vh;
+    height: 50vh;
     background-image: url(/img/law.jpg);
     background-position: center center;
 }
@@ -90,4 +90,38 @@ body {
     top: 296px;
     left: 156px;
     cursor: pointer;
+}
+
+.our-services {
+    display: flex;
+    justify-content: space-around;
+}
+
+.services-img {
+    height: 40vh;
+    width: 18vw;
+    border-left: 5px solid #FFCB74;
+    border-top: 5px solid #FFCB74;
+    border-bottom: 5px solid #FFCB74;
+}
+
+.services-img img {
+    height: 250px;
+    width: 221px;
+    position: relative;
+    top: 16px;
+    left: 15px;
+}
+
+.services-details :is(h2){
+    font-size: 2.2rem;
+}
+
+.services-details :is(p){
+    font-size: 1.2rem;
+}
+
+.services-list{
+    display: flex;
+    justify-content: space-around;
 }
